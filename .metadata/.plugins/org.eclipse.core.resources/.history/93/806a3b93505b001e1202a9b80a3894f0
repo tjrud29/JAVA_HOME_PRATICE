@@ -11,7 +11,6 @@ public class pratice1 {
 		}
 		sum = sum / arr.length;
 		System.out.println(sum);
-		    
 	}
 
 }

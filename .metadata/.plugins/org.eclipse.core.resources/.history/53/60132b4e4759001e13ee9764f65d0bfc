@@ -1,0 +1,14 @@
+package condinational;
+
+public class pratice1 {
+
+	public static void main(String[] args) {
+		int[] numbers = new int[10]; 
+		double answer = 0;
+	        for(int i = 1; i <= numbers.length; i++) {
+	            numbers[i] = numbers[i] + numbers[i -1];
+	            if(i == numbers.length) {
+	                answer = numbers[i] / numbers.length; 
+	}
+
+}
